@@ -4,7 +4,7 @@
 
 ## Problem & user
 
-RocketShip's growth PMs spend about 20 minutes every morning cross-checking Jira, Optimizely and Hex to work out which experiments are healthy, which have bad data, and which need a decision. Calls slip and data problems go unnoticed.
+RocketShip's growth PMs make a call on every running experiment each morning, because they need to know quickly whether a test is making or losing money. Getting to those calls takes 1 to 3 hours, about 2 on a typical day, depending on how many experiments are running. PMs pull numbers from Jira, Optimizely and Hex, work out which experiments are healthy, which have bad data and which need a decision, and then build each recommendation from scratch. Data problems go unnoticed in the process.
 
 Juno handles that triage with three skills: **Status** (one trustworthy view of every running experiment), **Recommendation** (a proposed action with a number-backed reason) and **Learnings** (draft write-ups of concluded tests). It works inside limits a human set on purpose, and a PM makes every decision.
 
@@ -104,7 +104,7 @@ Every recommendation, escalated or not, carries **"Needs human decision."** Esca
 
 - **Latency:** the 7:00 a.m. run finishes by **7:15 a.m.** for about 20 experiments. The dashboard loads in **under 2 seconds** because it reads a precomputed snapshot. A manual refresh takes **under 60 seconds** for one experiment and **under 5 minutes** for all of them.
 - **Cost:** a ceiling of **$0.15 per experiment per run** across all skills and verification. At about 20 experiments × 1 scheduled run plus up to 3 manual refreshes, that's **about $10 a day at worst, or about $220 a month** over 22 workdays. A **hard daily cap of $15** disables refreshes until the next scheduled run, and the dashboard says why.
-- **Why it's worth it:** Juno replaces about 20 minutes per PM each morning. Even for one PM, that's roughly 7 hours a month saved for $220.
+- **Why it's worth it:** Juno is meant to cut that morning from about 2 hours to 30 minutes or less per PM. Even for one PM, that's roughly 33 hours a month saved for $220.
 
 Turns multiply, they don't add: 20 experiments × up to 16 turns × 4 runs is about **1,300 model turns a day** at the worst case. That's why the ceilings are set per experiment, not per run.
 
