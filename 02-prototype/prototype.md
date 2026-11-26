@@ -7,7 +7,7 @@
 https://juno-experiment-dashboard.lovable.app/
 
 ## What it demonstrates
-**Testable assumption:** If the Experiment Status skill's output (Module 1) is shown as one view, a growth PM can tell in **under 2 minutes** which experiments are live, which have data they can't trust, and which need a decision. Today that takes about 20 minutes of cross-checking Jira, Optimizely and Hex.
+**Testable assumption:** If the Experiment Status skill's output (Module 1) is shown as one view, a growth PM can tell in **under 2 minutes** which experiments are live, which have data they can't trust, and which need a decision. Today, getting from Jira, Optimizely and Hex to a call on every running experiment takes 1 to 3 hours each morning, and this triage step is the first part of that time.
 
 **The one flow it proves:** morning triage. Open the dashboard → the alert banner shows which experiments have untrustworthy data → the summary cards show what needs a decision → click a row to see the evidence, with each value labeled by source and refresh time.
 
