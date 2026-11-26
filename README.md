@@ -1,12 +1,14 @@
-# Juno PM
+# Juno: Experiment Command Center for Growth PMs
 
-> _(one-line pitch: what Juno does, for whom, in one sentence)_
+> Juno turns a 2-hour morning of pulling numbers from Jira, Optimizely and Hex into a 30-minute review: one trusted dashboard of every running experiment, a recommendation you can check against the numbers, and learnings that carry forward.
 
-_Your name · cohort · date_
+_Michael Torres · November 2026_
+
+**Presentation:** [torres-michael.github.io/juno-pm/final-presentation.html](https://torres-michael.github.io/juno-pm/final-presentation.html) · **Prototype:** [juno-experiment-dashboard.lovable.app](https://juno-experiment-dashboard.lovable.app/)
+
+> Fictional and privacy-safe. RocketShip, its experiments, people and metrics are synthetic.
 
 This repo is my final project for the **AI Product Management Certification**. Each module's artifact lives in its own folder.
-
-**How to use this template:** click **Use this template → Create a new repository**, name it `juno-pm`, and commit one module's artifact per session. In Module 6, the **Final Project Deliverables Builder** reads these files and turns them into your final presentation.
 
 ---
 
